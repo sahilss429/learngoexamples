@@ -1,0 +1,10 @@
+[
+  {
+    "path" : "/consul",
+    "DC"    : ["dc1", "dc2", "dc3"]
+  },
+  {
+    "path" : "/mesos",
+    "DC"    : ["dc1", "dc2", "dc3", "dc4"]
+  }
+]

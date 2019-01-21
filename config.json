@@ -1,0 +1,36 @@
+{
+  "configs": [
+  {
+    "path" : "/trelliumd/consul",
+    "DC"    : ["us-east-1-vpc-56a09231","us-east-1-vpc-35196a52","us-aus-1-dts","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f","us-west-2-vpc-e9efcd8d","eu-west-1-vpc-41bc0225","us-west-2-vpc-841a38e0","us-west-2-vpc-a7d4f1c3","eu-west-1-vpc-942093f0","eu-west-1-vpc-ddc17fb9","ap-southeast-1-vpc-6be4720f","ap-southeast-1-vpc-bc30a4d8","ap-southeast-1-vpc-3a881c5e"]
+  },
+  {
+    "path" : "/trelliumd/nomad_client",
+    "DC"    : ["us-east-1-vpc-35196a52","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f"]
+  },
+  {
+    "path" : "/trelliumd/nomad_server",
+    "DC"    : ["us-east-1-vpc-35196a52","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f"]
+  },
+  {
+    "path" : "/trelliumd/vault",
+    "DC"    : ["us-east-1-vpc-35196a52","us-east-1-vpc-56a09231","us-aus-1-dts","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f","eu-west-1-vpc-41bc0225","eu-west-1-vpc-ddc17fb9","ap-southeast-1-vpc-bc30a4d8"]
+  },
+  {
+    "path" : "/trelliumd/mesos_master",
+    "DC"    : ["us-east-1-vpc-35196a52","us-aus-1-dts","us-aus-1-itdev","eu-west-1-vpc-41bc0225","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f","eu-west-1-vpc-ddc17fb9","ap-southeast-1-vpc-bc30a4d8"]
+  },
+  {
+    "path" : "/trelliumd/mesos_agent",
+    "DC"    : ["us-east-1-vpc-35196a52","us-aus-1-dts","us-aus-1-itdev","eu-west-1-vpc-41bc0225","us-east-1-vpc-58fd953f","us-east-1-vpc-88394aef","eu-west-1-vpc-ddc17fb9","ap-southeast-1-vpc-bc30a4d8"]
+  },
+  {
+    "path" : "/trelliumd/cgp",
+    "DC"    : ["us-aus-1-dts","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f","us-west-2-vpc-841a38e0","us-west-2-vpc-a7d4f1c3","eu-west-1-vpc-ddc17fb9","eu-west-1-vpc-942093f0","ap-southeast-1-vpc-6be4720f","ap-southeast-1-vpc-3a881c5e"]
+  },
+  {
+    "path" : "/trelliumd/kerrigan",
+    "DC"    : ["us-east-1-vpc-35196a52","us-east-1-vpc-56a09231","us-aus-1-dts","us-aus-1-itdev","us-east-1-vpc-88394aef","us-east-1-vpc-58fd953f","eu-west-1-vpc-41bc0225","us-west-2-vpc-e9efcd8d","us-west-2-vpc-841a38e0","us-west-2-vpc-a7d4f1c3","eu-west-1-vpc-ddc17fb9","eu-west-1-vpc-942093f0","ap-southeast-1-vpc-6be4720f","ap-southeast-1-vpc-bc30a4d8","ap-southeast-1-vpc-3a881c5e"]
+  }
+]
+}
